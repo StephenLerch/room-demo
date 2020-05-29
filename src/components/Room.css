@@ -1,0 +1,14 @@
+
+.room-container {
+  text-align: center;
+}
+
+.room {
+  background-color: cadetblue;
+  border: black thick solid;
+  display: inline-block;
+  height: 400px;
+  margin: 8px;
+  position: relative;
+  width: 600px;
+}

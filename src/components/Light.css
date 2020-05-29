@@ -1,0 +1,32 @@
+.light-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.cord {
+  border-left: 3px solid black;
+  height: 160px;
+  position: relative;
+}
+
+.light {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+}
+
+.light-off {
+  opacity: 0.5;
+}
+
+.light-on {
+  opacity: 0.9;
+  box-shadow: 0 0 60px 30px #fff, 0 0 100px 60px #f0f, 0 0 140px 90px #0ff;
+}
+
+
